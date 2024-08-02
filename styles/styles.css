@@ -4,8 +4,30 @@
 /* Header Section */
 body{
     max-width: 1440px;
+    background-color: black;
+    color: white;
 }
-.nav-container{
+
+header{
+    width: 1110px;
+    border: solid 2px;
+    position: absolute;
+    justify-content: center;
+    margin: auto;
+}
+
+header .nav-container{
+    width: 1060px;
+    height: 46px;
+    border: solid 2px red;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar{
+    display: f;
+}
+
+/* .nav-container{
     width: 100%;
     height: 40px;
     border: red solid ;
@@ -13,7 +35,7 @@ body{
     text-align: center;
     margin: auto;
     padding: 0px 190px;
-}
+} */
 
 .brand-name{
     color: red;
@@ -38,5 +60,5 @@ nav ul{
 }
 nav ul li{
     /* margin-right: 24px; */
-}
-/* End of Header Section */
+} */
+/* End of Header Section
